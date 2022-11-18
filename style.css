@@ -39,6 +39,7 @@ ul{
     flex-wrap: wrap;
     padding:10px 6px 0px;
     font-size: 110%;
+    list-style-type: none;
 }
 
 h1{
@@ -46,7 +47,7 @@ h1{
     flex-flow: column;
     align-content: center;
     flex-wrap: wrap;
-    padding: 0%;
+    padding-top: 15%;
     margin: 0%;
 }
 
@@ -95,23 +96,12 @@ img{
     overflow: hidden; 
     border-radius: 50%; 
     margin-top: 25px;
-    border-color: white;
+    border: 2px solid white;
+    transform: translate(0%,50%);
 }
 
 /* -------------------en cours----------- */
 
-ul li.mail {
-list-style-image: url('envelope.png');
-
-}
-    
-ul li.tel {
-list-style-image: url('images/book.png');
-}
-    
-ul li.site {
-list-style-image: url('images/target.png');
-}
 
 
 
